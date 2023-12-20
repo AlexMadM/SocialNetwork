@@ -1,0 +1,24 @@
+.App {
+    display: flex;
+    flex-direction: column;
+
+}
+
+header {
+    background-color: #bae6ee;
+    height: 60px;
+}
+
+header img {
+    width: 50px;
+}
+
+.navAndContent {
+    display: flex;
+    width: 100vw;
+}
+
+.content {
+    width: 80%;
+    background-color: #4eaca3;
+}
