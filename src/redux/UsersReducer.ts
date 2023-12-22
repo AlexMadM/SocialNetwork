@@ -35,7 +35,7 @@ export const Usersreducer = (state = initialState, action: ActionType): UsersTyp
     }
 }
 
-type ActionType = FollowChangerAC | GetUsersAC
+export type ActionType = FollowChangerAC | GetUsersAC
 
 type FollowChangerAC = ReturnType<typeof followChangerAC>
 type GetUsersAC = ReturnType<typeof getUsersAC>

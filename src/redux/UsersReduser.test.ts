@@ -1,4 +1,4 @@
-import { Usersreducer, UserType } from './UsersReducer'
+import {ActionType, Usersreducer, UserType} from './UsersReducer'
 
 describe("Usersreducer", () => {
     const initialState = {
@@ -6,6 +6,7 @@ describe("Usersreducer", () => {
     }
 
     test("should return the initial state", () => {
+
         expect(Usersreducer(undefined, {} as ActionType)).toEqual(initialState)
     })
 
