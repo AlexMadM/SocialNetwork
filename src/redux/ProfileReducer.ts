@@ -28,4 +28,4 @@ export const profileReducer = (state: ProfilePagesType = initialState, action: A
         }
         default: return state
     }
-};
+ };
