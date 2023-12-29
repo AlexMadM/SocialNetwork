@@ -17,7 +17,7 @@ export const profileReducer = (state: ProfilePagesType = initialState, action: A
         case 'ADD-POST': {
             let newPost: PostDataType = {
                 id: new Date().getDate(),
-                // text: this._state.profilePage.newPostText,
+
                 text: state.newPostText,
                 likesCount: 0
             };
